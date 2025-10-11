@@ -1,0 +1,26 @@
+# Ignore test script requested by the user
+test.sh
+
+# Common build artifacts
+*.o
+*.a
+*.so
+*.dll
+
+# Editor/OS files
+.DS_Store
+Thumbs.db
+*~
+# Vim swap files
+.swp
+
+# Backup and temporary files
+*.bak
+*.tmp
+
+# Ignore compiled binaries
+/bin/
+/build/
+
+# Ignore log files
+*.log
